@@ -12,15 +12,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button=findViewById(R.id.button1);
+        Button button = findViewById(R.id.button1);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-           BottemsheetFragment bottemsheetFragment=new BottemsheetFragment();
+                BottemsheetFragment bottemsheetFragment = new BottemsheetFragment();
 
-           bottemsheetFragment.show(getSupportFragmentManager(),bottemsheetFragment.getTag());
+                bottemsheetFragment.show(getSupportFragmentManager(), "Test");
             }
         });
     }

@@ -7,7 +7,6 @@
     tools:context=".BottemsheetFragment">
 
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -16,9 +15,9 @@
         android:layout_marginTop="16dp"
 
         android:text="Order Details"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,10 +65,10 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
         android:fontFamily="@font/roboto_medium"
-android:textColor="@color/black"
-        android:textStyle="bold"
         android:text="$ 12"
+        android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
@@ -118,25 +117,25 @@ android:textColor="@color/black"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         android:text="$ 42"
+        android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/finger"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/finger" />
 
     <TextView
-        android:layout_marginTop="16dp"
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textColor="@color/black"
         android:layout_marginLeft="16dp"
-        android:text="Total"
-        android:textSize="18sp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_medium"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/finger"
         app:layout_constraintTop_toBottomOf="@+id/finger" />
 
@@ -153,25 +152,25 @@ android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:text="$ 54"
-        android:textSize="18sp"
-        android:fontFamily="@font/roboto_medium"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/textView8"
         android:layout_marginRight="18dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="$ 54"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintStart_toEndOf="@+id/textView9" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Procees Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
         android:layout_marginTop="10dp"
         android:backgroundTint="#4CAF50"
-        android:textColor="@color/black"/>
+        android:text="Procees Next"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
